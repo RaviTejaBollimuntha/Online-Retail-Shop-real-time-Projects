@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>Store</title>
+  </head>
+<style>
+body {background-image:url('images/1.jpg');
+                    background-repeat: no-repeat;
+                    background-size: cover;}
+
+
+ul {
+    list-style-type:armenian;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 14px;
+    text-decoration:blink;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #99CD4E;
+}
+
+</style>
+  <body>
+<div style="text-align: center;">
+           <h1>Online Star Retail Store</h1>
+            <h3>India ki Retail</h3>
+</div>
+   <ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="Products.jsp">Product</a></li>
+  <li style="float:right"><a href="#contact">Contact</a></li>
+  <li style="float:right"><a class="active" href="#about">About</a></li>
+</ul>
+<table border=1 >
+<tr >
+<td colspan="5" width="75%"><marquee behavior="scroll"><img src="images/11.jpg" name="" width="100px" height="100x"/>
+                                                    <img src="images/12.jpg" width="100px" height="100px"/>
+                                                    <img src="images/13.jpg" width="100px" height="100px"/>
+                                                    <img src="images/14.jpg" width="100px" height="100px"/>
+                                                    <img src="images/15.jpg" width="100px" height="100px"/></marquee>
+<h2>About US</h2>
+ <h4>===========</h4>
+<p> <h3>Our Vision</h3>
+
+To be the foremost Retail Brand which makes India healthy and happy, with an obsession to provide wholesome and freshest foods.
+Passionately deliver convenient, competitive and meaningful solutions to the evolving regular needs of the Indian consumer in a sustainable and responsible manner.
+</p>
+<p>
+<h3>Values:</h3>
+=>Integrity<br>
+=>Commitment<br>
+=>Passion<br>
+=>Seamlessness<br>
+=>Speed<br>
+</p>
+</td>
+ <td width="15%">
+  <h2>Login User</h2>
+<form method="post" action="./ulogin">
+            <label>Username  :</label> <input type="text" name='nm'><br>
+            <label>Password  :</label> <input type="password" name='ps'><br>
+            <input type="hidden" name="lcheck" value="0">
+            <br><br>
+            <button type="submit">Login</button><br><br>
+</form>
+<h3>(OR)</h3>
+<a href="Register.jsp">Register For New User</a>
+      </td>
+      </tr>
+</table>
+    <div style="text-align: center;">
+      <p>©Copyright 2050 by BRT Shop. All rights reversed.</p>
+  </div>
+
+  </body>
+</html>

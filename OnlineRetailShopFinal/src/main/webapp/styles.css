@@ -1,0 +1,74 @@
+label{
+    color:#0066cc;
+    font-family: 'Oswald';
+    font-size: 17px;
+}
+input[type=text] {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid purple;
+    border-radius: 4px;
+    color:#0066cc;
+    font-family: 'Oswald';
+  font-weight: bold;
+    font-size: 15px;
+}
+input[type=password] {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid purple;
+    border-radius: 4px;
+    color:#0066cc;
+    font-family: 'Oswald';
+    font-weight: bold;
+    font-size: 15px;
+}
+ button {
+    background-color:#0066cc;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius:6px;
+    color:#f2f2f2;
+    width:300px;
+    font-family: 'Oswald';
+    font-size: 22px;
+    text-decoration: none;
+    cursor: poiner;
+     border:none;
+     cursor: pointer;
+            }
+table {
+    top:20%;
+       right:35%;
+       position:absolute;
+}
+a {
+    color:#0066cc;
+    font-family: 'Oswald';
+    font-size: 17px;    
+}
+
+select{
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid purple;
+    border-radius: 4px;
+    color:#0066cc;
+    font-family: 'Oswald';
+    font-weight: bold;
+    font-size: 15px;
+}
+h3 {
+       color:#0066cc;
+    font-family: 'Oswald';
+    font-size: 17px;
+}
+ body {background-image:url('images/1.jpg');
+                    background-repeat: no-repeat;
+                    background-size: cover;}
